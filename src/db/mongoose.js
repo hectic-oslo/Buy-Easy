@@ -9,7 +9,7 @@ const connectDB=async()=>{
               useUnifiedTopology:true
           })
           console.log(`Mongodb Connencted`);
-        //   console.log(process.env.MONGODB_URI);
+          console.log("monogdburi",`jhbfhwrfbh${process.env.MONGODB_URI}hwebfhewbfhewfhj`);
    }
    catch(error)
    {
